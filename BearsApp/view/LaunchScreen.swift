@@ -13,7 +13,7 @@ import UIKit
 class LaunchScreen: UIViewController {
 
     var timer = Timer()
-    //1- create logo
+    //1- create logo image
     lazy var logo : UIImageView = {
         let logo = UIImageView()
         logo.translatesAutoresizingMaskIntoConstraints = false

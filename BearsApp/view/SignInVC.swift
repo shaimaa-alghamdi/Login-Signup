@@ -19,6 +19,7 @@ class SignInVC: UIViewController {
     
     lazy var singInBtn : UIButton            = {
         $0.changeUIButton(title: "Sign in ", color: colors.button)
+        
         return $0
     }(UIButton(type: .system))
     
@@ -99,6 +100,7 @@ class SignInVC: UIViewController {
         let VC = SignUpVC()
         VC.modalPresentationStyle = .fullScreen
         self.present(VC, animated: true, completion: nil)
+        print("move")
         
         
     }

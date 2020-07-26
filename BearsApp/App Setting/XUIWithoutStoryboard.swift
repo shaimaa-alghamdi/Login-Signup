@@ -49,7 +49,7 @@ class myTextView : UIView {
         self.layer.masksToBounds = true
         self.translatesAutoresizingMaskIntoConstraints = false
         
-        
+        //add views
         self.addSubview(textFiled)
         self.addSubview(icon)
         

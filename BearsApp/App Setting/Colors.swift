@@ -9,7 +9,7 @@
 import UIKit
 import Foundation
 
-
+//enum or stract
 enum colors {
     static let button = UIColor(red:0.58, green:0.26, blue:0.25, alpha:1.0)
     
