@@ -109,8 +109,8 @@ class SignUpVC: UIViewController {
      @objc func didPresssignInButton(_ sender : UIButton ){
         let VC = SignInVC()
         VC.modalPresentationStyle = .fullScreen
+        // use dismiss NOT present to avoid load memory.
         dismiss(animated: true, completion: nil)
-//        self.present(VC, animated: true , completion: nil)
           print("move")
       
     }
