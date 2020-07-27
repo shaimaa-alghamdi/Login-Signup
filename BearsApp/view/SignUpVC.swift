@@ -110,7 +110,7 @@ class SignUpVC: UIViewController {
         let VC = SignInVC()
         VC.modalPresentationStyle = .fullScreen
         dismiss(animated: true, completion: nil)
-      //  self.present(VC, animated: true , completion: nil)
+//        self.present(VC, animated: true , completion: nil)
           print("move")
       
     }
