@@ -9,9 +9,7 @@
 import UIKit
 
 class SignUpVC: UIViewController {
-    
-    
-            // MARK: variables
+        // MARK: variables
     lazy var titleLbl: UILabel = {
              $0.changeUILabel(title: "SignUp", size: 20)
              return $0
