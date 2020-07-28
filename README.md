@@ -1,7 +1,8 @@
 # Login & Signup
 
 ## Example
-![giphy](https://user-images.githubusercontent.com/18473439/68200640-49328f80-ff8e-11e9-9199-869310f13f99.gif)
+![giphy]![giff](https://user-images.githubusercontent.com/39530404/88729349-52771400-d13c-11ea-8a01-c65fc5485c17.gif)
+
 
 Login and Signup views `Without Storyboard` 
 
